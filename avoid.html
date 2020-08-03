@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body{
+    background-color: black;
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    margin: 0;
+    padding: 0;
+  }
+
+.header{
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+
+  .container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(198px, 1fr));
+grid-gap: 0.75rem; /* To define the gap between rows/columns */
+gap: 0.75rem;
+padding: 0.75rem;
+background-color: #111111; /* For contrast */
+color: #fff;
+font-size: 22px;
+margin-left: 2%;
+margin-right: 2%;
+}
+.card {
+position: relative;
+}
+
+.card:after {
+content: "";
+display: block;
+padding-bottom: 100%;
+}
+
+.card .content {
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+}
+
+.center {
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+text-align: center;
+border-radius: 0.75rem;
+background-color: #474b4f;
+}
+
+.about{
+  background: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 26px;
+  padding: 2%;
+}
+
+.container1{
+  width: 100%;
+  background-color: white;
+}
+
+.li{
+  font-size: 0.8vw;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  font-size: 25px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+
+  </style>
+</head>
+<body>
+
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="news.html">Latest News</a></li>
+    <li><a href="camps.html">Camps</a></li>
+    <li><a class="active" href="#">Areas to Avoid</a></li>
+    <li><a href="aboutus.html">Who We Are</a></li>
+  </ul>
+
+  <div class = "header">
+    <h1>Areas to Avoid</h1>
+    <br><br>
+    <hr>
+  </div>
+  <br>
+<div class="container1">
+<div class="about">
+  The post-World War II environment still contained heavy amounts of anti-Semitic sentiments, which often manifested as forms of violence. This violence often came about as pogroms; violent riots in which Jews
+  were attacked. These occurred not only in Eastern Europe, but also in the USA and under other Allied mandates. ALthough riots themselves were normally one-time occurrences, sentiments harbored by people who participated in
+  such riots remained even after they were over. Below is compiled a non-exhaustive list of areas known to be unwelcome to Jewish displaced persons.
+  Citizens at the time would potentially have been able to add areas to the list as based on personal observations, the news, or from other verified sources.
+</div>
+</div>
+<br>
+  <div class="container">
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        KIELCE<br>
+        Poland
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        MISKOLC<br>
+        Hungary
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        KUNMADARAS<br>
+        Hungary
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        TOPOLCANY<br>
+        Slovakia
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        KIEV<br>
+        Ukraine
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        RUBTSOVSK<br>
+        Russia
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        KOLBASOV<br>
+        Slovakia
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        TRIPOLITANIA<br>
+        Italy
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        ZILINA<br>
+        Slovakia
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <div class="center">
+        BRATISLAVA<br>
+        Slovakia
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
